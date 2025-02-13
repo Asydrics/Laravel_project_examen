@@ -52,7 +52,7 @@
                         <div class="mb-4">
                         <div>
                             <strong class="text-white">Type:</strong>
-                            {{-- <span class="text-gray-300">{{ strtolower(optional($randomMonster->monster_type)->name ?? 'Type inconnu') }}</span> --}}
+                            <span class="text-gray-300">{{ $randomMonster->monster_type->name }}</span>
                         </div>
                         <div>
                             <strong class="text-white">PV:</strong>
